@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Operation Services</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://img.freepik.com/free-photo/metallic-gold-glitter-background_53876-71358.jpg?semt=ais_hybrid') no-repeat center center/cover;
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+        }
+        .container {
+            padding: 30px;
+            margin: 20px;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #000;
+            font-weight: 900;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 15px 0;
+            font-weight: 700;
+        }
+        .contact {
+            margin-top: 30px;
+            font-size: 1.2em;
+        }
+        .contact a {
+            color: blue; /* Changed Gmail link to blue */
+            text-decoration: none;
+            font-weight: 900;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        /* New Image Styling */
+        .corner-image {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 200px; /* Adjust the size as needed */
+            height: auto;
+            border-radius: 8px;
+        }
+        /* Right corner heading styling */
+        .right-heading {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1.5em;
+            font-weight: 900;
+            color: maroon; /* Changed color to maroon */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://plus.unsplash.com/premium_photo-1683122042555-e2ac5f67f77d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29sZCUyMGJhcnxlbnwwfHwwfHx8MA%3D%3D" class="corner-image" alt="Gold Bar Image">
+    <div class="right-heading">4R Technologies</div>
+    <div class="container">
+        <h1>Mine Gold from your Process Operation</h1>
+        <p><strong>Process Simulation</strong></p>
+        <p><strong>Advanced Process Control</strong></p>
+        <p><strong>Mirror Model</strong></p>
+        <p><strong>Mentorship</strong></p>
+        <div class="contact">
+            <p>Contact: <a href="mailto:sanjaymishra4r@gmail.com">sanjaymishra4r@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
